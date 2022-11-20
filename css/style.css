@@ -1,0 +1,194 @@
+body
+{
+	background-image: url("../images/bg_img.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.title
+{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-family: "monospace", "sans-serif";
+}
+
+.title:hover
+{
+	font-family: "Lucida Calligraphy", "sans-serif";
+	color: #913340;
+	text-decoration: underline;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li
+{
+	float: left;
+}
+
+li a
+{
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Georgia", "sans-serif";
+}
+
+a:hover
+{
+	background-color: #6b6dba;
+}
+
+.bodyTitle
+{
+	padding: 10px;
+	margin: 10px;
+	background-color: #353d8e;
+	width: 570px;
+	height: 270px;
+}
+
+.bodyTitle:hover
+{
+	text-decoration: overline;
+}
+
+.bodyContent
+{
+	padding: 10px;
+	background-color: #3e4a9c;
+	width: 550px;
+	height: 230px;
+}
+
+.custTable
+{
+	padding: 40px;
+}
+
+.table
+{
+	color: white;
+	width: 50%;
+	border: 3px solid white;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.table th, td {
+	padding: 20px;
+	border: 1px solid white;
+	font-family: "Verdana", "sans-serif";
+}
+
+.table th
+{
+	font-family: "Papyrus", "sans-serif";
+}
+
+.table tr:nth-child(even)
+{
+	background-color: #3e4a9c;
+}
+
+.table th
+{
+	background-color: #172154;
+}
+
+caption
+{
+	color: #fdc43c;
+	font-size: 40px;
+}
+
+
+.transferForm
+{
+	padding: 10px;
+	background-color: #3e4a9c;
+	width: 650px;
+	height: 450px;
+}
+
+.transferForm1
+{
+	padding: 10px;
+	background-color: #9b98df;
+	width: 650px;
+	height: 450px;
+}
+
+
+span
+{
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	font-family: "Calibri", "sans-serif";
+}
+
+button
+{
+	width: 150px;  
+	height: 3em;
+	background-color: #62619d;
+	font-size: 15px;
+	color: #ffffff;
+	font-family: "Verdana", "sans-serif";
+}
+
+button:hover
+{
+	width: 150px;  
+	height: 3em;
+	background-color: #0f1841;
+	border: 4px outset #27d06e;
+	font-weight: bold;
+}
+
+input,select
+{
+	padding: 8px 10px;
+	border: none;
+	opacity: 0.8;
+	font-size: 15px;
+	font-family: "Calibri", "sans-serif";
+	display: inline-block;
+}
+
+#transfer
+{
+	width: 150px;  
+	height: 3em;
+	background-color: #11174b;
+	font-size: 20px;
+}
+
+#transfer:hover
+{
+	width: 150px;  
+	height: 3em;
+	background-color: #192575;
+	font-weight: bold;
+	border: 4px inset #ffc33c;
+}
+
+.table tr:hover
+{
+	background-color: #24eb6a;
+}
+
+.table tr:nth-child(even):hover
+{
+	background-color: #24eb6a;
+}
